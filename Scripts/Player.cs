@@ -6,6 +6,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public TextMeshProUGUI healthText;
+    private KeyDoor currentKeyDoor;
+    public bool hasKey = false;
 
     /// <summary>
     /// The current health of the player
@@ -40,4 +42,23 @@ public class Player : MonoBehaviour
       //      Die();
         }
     }
+
+
+    public void UpdateKeyDoor(KeyDoor door)
+    {
+        currentKeyDoor = door;
+    }
+
+    void OnInteract()
+    {
+
+        // This is "null check"
+        if (currentKeyDoor != null)
+        {
+            currentKeyDoor.OpenDoor();
+            currentKeyDoor = null;
+        }
+
+    }
+
 }
