@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI healthText;
     private KeyDoor currentKeyDoor;
     public bool hasKey = false;
+    public GameOver gameOver;
 
     /// <summary>
     /// The current health of the player
@@ -19,8 +20,12 @@ public class Player : MonoBehaviour
     /// </summary>
     void Start()
     {
-        //UpdateHealthText();
-  
+        UpdateHealthText();
+        if (gameOver == null)
+        {
+            gameOver = FindObjectOfType<GameOver>();
+        }
+
     }
     /// <summary>
     /// Store the current laser that the player is touching
@@ -34,15 +39,28 @@ public class Player : MonoBehaviour
     {
         currentHealth -= healthToMinus;
         // Update the score display text 
-      //  UpdateHealthText();
+        UpdateHealthText();
         Debug.Log(currentHealth);
 
         if (currentHealth <= 0)
         {
-      //      Die();
+            Die();
         }
     }
 
+    /// <summary>
+    /// Handles player's death by showing game over panel 
+    /// </summary>
+    private void Die()
+    {
+        Debug.Log("You died.");
+        gameOver.ShowGameOverPanel();
+    }
+
+    private void UpdateHealthText()
+    {
+        healthText.text = "Health: " + currentHealth;
+    }
 
     public void UpdateKeyDoor(KeyDoor door)
     {

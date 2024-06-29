@@ -1,0 +1,942 @@
+; FBX 6.1.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+	CurrentCameraResolution:  {
+		CameraName: "Producer Perspective"
+		CameraResolutionMode: "Fixed Resolution"
+		CameraResolutionW: 960
+		CameraResolutionH: 540
+	}
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2024
+		Month: 6
+		Day: 2
+		Hour: 13
+		Minute: 42
+		Second: 47
+		Millisecond: 142
+	}
+	Creator: "FBX SDK/FBX Plugins version 2020.3.2"
+}
+
+; Document Description
+;------------------------------------------------------------------
+
+Document:  {
+	Name: ""
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 20
+	ObjectType: "Model" {
+		Count: 1
+	}
+	ObjectType: "Material" {
+		Count: 1
+	}
+	ObjectType: "Texture" {
+		Count: 7
+	}
+	ObjectType: "Video" {
+		Count: 7
+	}
+	ObjectType: "SceneInfo" {
+		Count: 1
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Implementation" {
+		Count: 1
+	}
+	ObjectType: "BindingTable" {
+		Count: 1
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Model: "Model::corridor", "Mesh" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "enum", "",0
+			Property: "RotationOffset", "Vector3D", "",0,0,0
+			Property: "RotationPivot", "Vector3D", "",-4.16526413891116,1.20326278352162,16.461657595383
+			Property: "ScalingOffset", "Vector3D", "",412.361149752205,-119.123015568641,-1629.70410194292
+			Property: "ScalingPivot", "Vector3D", "",-416.526413891116,120.326278352162,1646.1657595383
+			Property: "TranslationActive", "bool", "",0
+			Property: "TranslationMin", "Vector3D", "",0,0,0
+			Property: "TranslationMax", "Vector3D", "",0,0,0
+			Property: "TranslationMinX", "bool", "",0
+			Property: "TranslationMinY", "bool", "",0
+			Property: "TranslationMinZ", "bool", "",0
+			Property: "TranslationMaxX", "bool", "",0
+			Property: "TranslationMaxY", "bool", "",0
+			Property: "TranslationMaxZ", "bool", "",0
+			Property: "RotationOrder", "enum", "",0
+			Property: "RotationSpaceForLimitOnly", "bool", "",0
+			Property: "RotationStiffnessX", "double", "",0
+			Property: "RotationStiffnessY", "double", "",0
+			Property: "RotationStiffnessZ", "double", "",0
+			Property: "AxisLen", "double", "",10
+			Property: "PreRotation", "Vector3D", "",0,0,0
+			Property: "PostRotation", "Vector3D", "",0,0,0
+			Property: "RotationActive", "bool", "",1
+			Property: "RotationMin", "Vector3D", "",0,0,0
+			Property: "RotationMax", "Vector3D", "",0,0,0
+			Property: "RotationMinX", "bool", "",0
+			Property: "RotationMinY", "bool", "",0
+			Property: "RotationMinZ", "bool", "",0
+			Property: "RotationMaxX", "bool", "",0
+			Property: "RotationMaxY", "bool", "",0
+			Property: "RotationMaxZ", "bool", "",0
+			Property: "InheritType", "enum", "",1
+			Property: "ScalingActive", "bool", "",0
+			Property: "ScalingMin", "Vector3D", "",0,0,0
+			Property: "ScalingMax", "Vector3D", "",0,0,0
+			Property: "ScalingMinX", "bool", "",0
+			Property: "ScalingMinY", "bool", "",0
+			Property: "ScalingMinZ", "bool", "",0
+			Property: "ScalingMaxX", "bool", "",0
+			Property: "ScalingMaxY", "bool", "",0
+			Property: "ScalingMaxZ", "bool", "",0
+			Property: "GeometricTranslation", "Vector3D", "",0,0,0
+			Property: "GeometricRotation", "Vector3D", "",0,0,0
+			Property: "GeometricScaling", "Vector3D", "",1,1,1
+			Property: "MinDampRangeX", "double", "",0
+			Property: "MinDampRangeY", "double", "",0
+			Property: "MinDampRangeZ", "double", "",0
+			Property: "MaxDampRangeX", "double", "",0
+			Property: "MaxDampRangeY", "double", "",0
+			Property: "MaxDampRangeZ", "double", "",0
+			Property: "MinDampStrengthX", "double", "",0
+			Property: "MinDampStrengthY", "double", "",0
+			Property: "MinDampStrengthZ", "double", "",0
+			Property: "MaxDampStrengthX", "double", "",0
+			Property: "MaxDampStrengthY", "double", "",0
+			Property: "MaxDampStrengthZ", "double", "",0
+			Property: "PreferedAngleX", "double", "",0
+			Property: "PreferedAngleY", "double", "",0
+			Property: "PreferedAngleZ", "double", "",0
+			Property: "LookAtProperty", "object", ""
+			Property: "UpVectorProperty", "object", ""
+			Property: "Show", "bool", "",1
+			Property: "NegativePercentShapeSupport", "bool", "",1
+			Property: "DefaultAttributeIndex", "int", "",0
+			Property: "Freeze", "bool", "",0
+			Property: "LODBox", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A",0,0,0
+			Property: "Lcl Rotation", "Lcl Rotation", "A",0,0,0
+			Property: "Lcl Scaling", "Lcl Scaling", "A",0.01,0.01,0.01
+			Property: "Visibility", "Visibility", "A",1
+			Property: "currentUVSet", "KString", "U", "map1"
+			Property: "Color", "ColorRGB", "N",0.8,0.8,0.8
+			Property: "BBoxMin", "Vector3D", "N",0,0,0
+			Property: "BBoxMax", "Vector3D", "N",0,0,0
+			Property: "Primary Visibility", "bool", "N",1
+			Property: "Casts Shadows", "bool", "N",1
+			Property: "Receive Shadows", "bool", "N",1
+		}
+		MultiLayer: 0
+		MultiTake: 0
+		Shading: T
+		Culling: "CullingOff"
+		Vertices: -150.985366821289,-59.9999656677246,1903.74560546875,150.985382080078,-59.9999656677246,2206.03759765625,-150.985366821289
+        ,-59.9999656677246,1086.29382324219,150.985382080078,-59.9999656677246,1086.29382324219,-150.985366821289,204.87336730957
+        ,1903.74560546875,-150.985366821289,204.87336730957,1086.29382324219,150.985382080078,204.87336730957,2206.03759765625
+        ,150.985382080078,204.87336730957,1086.29382324219,-984.036926269531,-59.9999656677246,1903.74560546875,-984.033752441406
+        ,-59.9999656677246,2206.03759765625,-984.036926269531,204.87336730957,1903.74560546875,-984.033752441406,204.87336730957
+        ,2206.03759765625,-150.985366821289,204.873397827148,1903.74560546875,150.985366821289,204.873397827148,2206.03759765625
+        ,-150.985366821289,204.873397827148,1094.06591796875,150.985366821289,204.873397827148,1094.06591796875,-133.291549682617
+        ,234.653732299805,1915.41638183594,-133.291549682617,234.653732299805,1094.06591796875,0,300.652526855469,2042.81066894531
+        ,0,300.652526855469,1094.06591796875,133.291564941406,234.653732299805,2183.44360351562,133.291564941406,234.653732299805
+        ,1094.06591796875,-97.7432403564453,272.739715576172,1947.69384765625,-97.7432479858398,272.739715576172,1094.06591796875
+        ,97.7432403564453,272.73974609375,2141.24658203125,97.7432403564453,272.73974609375,1094.06591796875,-984.038146972656
+        ,204.873397827148,1903.74560546875,-984.0380859375,234.653732299805,1915.41638183594,-984.037658691406,272.73974609375
+        ,1947.69384765625,-984.03662109375,300.652526855469,2042.81066894531,-984.035888671875,272.73974609375,2141.24658203125
+        ,-984.035522460938,234.653732299805,2183.44360351562,-984.035278320312,204.873397827148,2206.03759765625
+		PolygonVertexIndex: 0,1,3,-3,0,2,5,-5,3,1,6,-8,1,0,8,-10,0,4,10,-9,6,1,9,-12,12,14,17,-17,17,23,22,-17,19,25,24,-19,21,15,13,-21,23,19
+        ,18,-23,25,21,20,-25,12,16,27,-27,16,22,28,-28,18,24,30,-30,20,13,32,-32,22,18,29,-29,24,20,31,-31
+		Edges: 0,3,1,2,7,5,6,9,11,10,13,15,14,17,18,23,22,27,24,37,25,30,28,26,34,32,35,38,36,39,42,40,29,46,44,33,51,49,50,53,54
+        ,59,57,58,63,61,62,66,70
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: 0,1,-1.32395898688742e-08,0,1,-1.32514417217067e-08,0,0.999999940395355,0,0,0.999999940395355,0,1,0,0,1,0,0,1
+             ,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,1,-1.32514417217067e-08,0,1,-1.32395898688742e-08,0,1,-2.62635033720926e-08
+             ,0,0.999999940395355,-2.62635033720926e-08,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-0.999999940395355,0,0,-0.999999940395355
+             ,0,0,-0.999999940395355,0,0,-0.999999940395355,0.859705984592438,-0.510789215564728,0,0.859706044197083,-0.510789215564728
+             ,0,0.785929620265961,-0.618315935134888,0,0.76997572183609,-0.638073146343231,0,0.785929620265961,-0.618315935134888
+             ,0,0.435709774494171,-0.900087237358093,-1.39409657151646e-08,0.198714897036552,-0.970835208892822,0.134132251143456
+             ,0.76997572183609,-0.638073146343231,0,-0.0145504539832473,-0.999894082546234,-9.83261205789177e-09,-0.451331317424774
+             ,-0.892356514930725,0,-0.299790471792221,-0.906927704811096,-0.29598605632782,-0.0729259997606277,-0.994423270225525
+             ,-0.0761854872107506,-0.787732124328613,-0.616017997264862,0,-0.859706044197083,-0.510789096355438,0,-0.859706044197083
+             ,-0.510789096355438,0,-0.815640926361084,-0.578558385372162,0,0.435709774494171,-0.900087237358093,-1.39409657151646e-08
+             ,-0.0145504539832473,-0.999894082546234,-9.83261205789177e-09,-0.0729259997606277,-0.994423270225525,-0.0761854872107506
+             ,0.198714897036552,-0.970835208892822,0.134132251143456,-0.451331317424774,-0.892356514930725,0,-0.787732124328613
+             ,-0.616017997264862,0,-0.815640926361084,-0.578558385372162,0,-0.299790471792221,-0.906927704811096,-0.29598605632782
+             ,0,-0.364876568317413,0.931055843830109,-1.39708362212332e-07,-0.586821675300598,0.809716105461121,-1.12589894740722e-07
+             ,-0.545609831809998,0.838039338588715,0,-0.364876598119736,0.931055843830109,-1.39708362212332e-07,-0.586821675300598
+             ,0.809716105461121,-1.80178417963361e-07,-0.646535277366638,0.762884140014648,-1.80178432174216e-07,-0.646535277366638
+             ,0.762884140014648,-1.12589894740722e-07,-0.545609831809998,0.838039338588715,-0.0729259997606277,-0.994423270225525
+             ,-0.0761854872107506,-0.299790471792221,-0.906927704811096,-0.29598605632782,0,-0.902392208576202,-0.430915623903275
+             ,0,-0.962068736553192,-0.272806882858276,0,-0.666231274604797,-0.745745182037354,0,-0.604420304298401,-0.796665668487549
+             ,0,-0.604420244693756,-0.796665668487549,0,-0.689747929573059,-0.72404944896698,0.198714897036552,-0.970835208892822
+             ,0.134132251143456,-0.0729259997606277,-0.994423270225525,-0.0761854872107506,9.11694186811474e-09,-0.959536671638489
+             ,0.281583845615387,9.11693920357948e-09,-0.959536552429199,0.281583786010742,-0.299790471792221,-0.906927704811096
+             ,-0.29598605632782,0,-0.666231274604797,-0.745745182037354,0,-0.689747929573059,-0.72404944896698,0,-0.902392208576202
+             ,-0.430915623903275
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "map1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: 0.749205708503723,0.979266881942749,0.485606163740158,0.50901734828949,0.508409142494202,0.634217381477356,0.364726155996323
+             ,0.957255005836487,0.506960809230804,0.811743974685669,0.749205708503723,0.811743974685669,0.750725150108337
+             ,0.800916314125061,0.508409142494202,0.800916850566864,0.996073365211487,0.979267120361328,0.0312537997961044
+             ,0.50901734828949,0.996073484420776,0.811744332313538,0.996346473693848,0.800915777683258,0.0312525480985641
+             ,0.63002598285675,0.996346473693848,0.63421630859375,0.750724971294403,0.634217023849487,0.364726155996323,0.63002598285675
+             ,0.506960868835449,0.979266703128815,0.485606163740158,0.957255005836487,0.35276061296463,0.289530456066132,0.354440182447433
+             ,0.0068361759185791,0.366590589284897,0.00721317529678345,0.3639976978302,0.297038793563843,0.384698510169983
+             ,0.00777733325958252,0.381992310285568,0.310103118419647,0.419841647148132,0.00874477624893188,0.455464363098145
+             ,0.00930768251419067,0.45717054605484,0.367324531078339,0.419841587543488,0.338327139616013,0.473914414644241
+             ,0.00957661867141724,0.486137092113495,0.00980859994888306,0.486375331878662,0.392666280269623,0.475024044513702
+             ,0.382820665836334,0.074415385723114,0.375101029872894,0.0712739676237106,0.364323288202286,0.0792866870760918
+             ,0.391774833202362,0.0983376353979111,0.459317833185196,0.0887904465198517,0.424747198820114,0.107230633497238
+             ,0.491426020860672,0.103676773607731,0.478722959756851
+			UVIndex: 15,1,17,3,0,16,4,5,2,14,6,7,1,15,12,9,0,5,10,8,6,14,13,11,18,19,20,21,20,22,23,21,24,25,26,27,28,29,30,31,22
+             ,24,27,23,25,28,31,26,18,21,32,33,21,23,34,32,27,26,35,36,31,30,37,38,23,27,36,34,26,31,38,35
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: 0
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+		NodeAttributeName: "Geometry::corridor_ncl1_1"
+	}
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties60:  {
+			Property: "DocumentUrl", "KString", "", "C:\Users\cyann\Downloads\Y2S1\3RT\asg1\modularAssets\corridor.fbx"
+			Property: "SrcDocumentUrl", "KString", "", "C:\Users\cyann\Downloads\Y2S1\3RT\asg1\modularAssets\corridor.fbx"
+			Property: "Original", "Compound", ""
+			Property: "Original|ApplicationVendor", "KString", "", "Autodesk"
+			Property: "Original|ApplicationName", "KString", "", "Maya"
+			Property: "Original|ApplicationVersion", "KString", "", "2024"
+			Property: "Original|DateTime_GMT", "DateTime", "", "02/06/2024 05:42:47.140"
+			Property: "Original|FileName", "KString", "", "C:\Users\cyann\Downloads\Y2S1\3RT\asg1\modularAssets\corridor.fbx"
+			Property: "LastSaved", "Compound", ""
+			Property: "LastSaved|ApplicationVendor", "KString", "", "Autodesk"
+			Property: "LastSaved|ApplicationName", "KString", "", "Maya"
+			Property: "LastSaved|ApplicationVersion", "KString", "", "2024"
+			Property: "LastSaved|DateTime_GMT", "DateTime", "", "02/06/2024 05:42:47.140"
+			Property: "Original|ApplicationActiveProject", "KString", "", "C:\Users\cyann\Downloads\Y2S1\3RT\asg1\modularAssets"
+			Property: "Original|ApplicationNativeFile", "KString", "", "C:\Users\cyann\Downloads\Y2S1\3RT\MayaProjects\3RT_ASG1\scenes\12_chandelier.ma"
+             
+		}
+	}
+	Material: "Material::StingrayPBS1", "" {
+		Version: 102
+		ShadingModel: "unknown"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Unknown"
+			Property: "MultiLayer", "bool", "",0
+			Property: "Maya", "Compound", ""
+			Property: "Maya|TypeId", "int", "",1166017
+			Property: "Maya|TEX_global_diffuse_cube", "Vector3D", "",0,0,0
+			Property: "Maya|TEX_global_specular_cube", "Vector3D", "",0,0,0
+			Property: "Maya|TEX_brdf_lut", "Vector3D", "",0,0,0
+			Property: "Maya|use_normal_map", "float", "",1
+			Property: "Maya|uv_offset", "Vector2D", "",0,0
+			Property: "Maya|uv_scale", "Vector2D", "",1,1
+			Property: "Maya|TEX_normal_map", "Vector3D", "",0,0,0
+			Property: "Maya|use_color_map", "float", "",1
+			Property: "Maya|TEX_color_map", "Vector3D", "",0,0,0
+			Property: "Maya|base_color", "Vector3D", "",0.5,0.5,0.5
+			Property: "Maya|use_metallic_map", "float", "",1
+			Property: "Maya|TEX_metallic_map", "Vector3D", "",0,0,0
+			Property: "Maya|metallic", "float", "",0
+			Property: "Maya|use_roughness_map", "float", "",1
+			Property: "Maya|TEX_roughness_map", "Vector3D", "",0,0,0
+			Property: "Maya|roughness", "float", "",0.33
+			Property: "Maya|use_emissive_map", "float", "",0
+			Property: "Maya|TEX_emissive_map", "Vector3D", "",0,0,0
+			Property: "Maya|emissive", "Vector3D", "",0,0,0
+			Property: "Maya|emissive_intensity", "float", "",0
+			Property: "Maya|use_ao_map", "float", "",0
+			Property: "Maya|TEX_ao_map", "Vector3D", "",0,0,0
+		}
+	}
+	Video: "Video::file2", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/midday/specular_cube.dds"
+             
+			Property: "RelPath", "KString", "", "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\midday\specular_cube.dds"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/midday/specular_cube.dds"
+		RelativeFilename: "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\midday\specular_cube.dds"
+	}
+	Video: "Video::file1", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/midday/diffuse_cube.dds"
+             
+			Property: "RelPath", "KString", "", "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\midday\diffuse_cube.dds"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/midday/diffuse_cube.dds"
+		RelativeFilename: "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\midday\diffuse_cube.dds"
+	}
+	Video: "Video::file7", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Roughness.1001.png"
+             
+			Property: "RelPath", "KString", "", "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Roughness.1001.png"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Roughness.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Roughness.1001.png"
+	}
+	Video: "Video::file3", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/ibl_brdf_lut.png"
+			Property: "RelPath", "KString", "", "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\ibl_brdf_lut.png"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/ibl_brdf_lut.png"
+		RelativeFilename: "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\ibl_brdf_lut.png"
+	}
+	Video: "Video::file4", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_AlbedoTransparency.1001.png"
+             
+			Property: "RelPath", "KString", "", "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_AlbedoTransparency.1001.png"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_AlbedoTransparency.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_AlbedoTransparency.1001.png"
+        
+	}
+	Video: "Video::file5", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Normal.1001.png"
+             
+			Property: "RelPath", "KString", "", "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Normal.1001.png"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Normal.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Normal.1001.png"
+	}
+	Video: "Video::file6", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "Path", "KString", "", "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Metal.1001.png"
+             
+			Property: "RelPath", "KString", "", "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Metal.1001.png"
+             
+			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
+			Property: "ClipIn", "KTime", "",0
+			Property: "ClipOut", "KTime", "",0
+			Property: "Offset", "KTime", "",0
+			Property: "PlaySpeed", "double", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "Mute", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+			Property: "ImageSequence", "bool", "",0
+			Property: "ImageSequenceOffset", "int", "",0
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "InterlaceMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Metal.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Metal.1001.png"
+	}
+	Texture: "Texture::file2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file2"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file2"
+		FileName: "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/midday/specular_cube.dds"
+		RelativeFilename: "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\midday\specular_cube.dds"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::file1", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file1"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file1"
+		FileName: "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/midday/diffuse_cube.dds"
+		RelativeFilename: "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\midday\diffuse_cube.dds"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::file7", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file7"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file7"
+		FileName: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Roughness.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Roughness.1001.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::file3", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file3"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file3"
+		FileName: "C:/Program Files/Autodesk/Maya2024/presets/ShaderFX/Images/PBS/ibl_brdf_lut.png"
+		RelativeFilename: "..\..\..\..\..\..\..\Program Files\Autodesk\Maya2024\presets\ShaderFX\Images\PBS\ibl_brdf_lut.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::file4", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file4"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file4"
+		FileName: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_AlbedoTransparency.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_AlbedoTransparency.1001.png"
+        
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::file5", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file5"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file5"
+		FileName: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Normal.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Normal.1001.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::file6", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file6"
+		Properties60:  {
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "Texture alpha", "Number", "A",1
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "PremultiplyAlpha", "bool", "",1
+			Property: "Translation", "Vector", "A",0,0,0
+			Property: "Rotation", "Vector", "A",0,0,0
+			Property: "Scaling", "Vector", "A",1,1,1
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UVSet", "KString", "", "default"
+			Property: "UseMaterial", "bool", "",1
+			Property: "UseMipMap", "bool", "",0
+		}
+		Media: "Video::file6"
+		FileName: "C:/Users/cyann/Downloads/Y2S1/3RT/MayaProjects/3RT_ASG1/sourceimages/textureAtlas/textureAtlas_standardSurface1_Metal.1001.png"
+        
+		RelativeFilename: "..\..\MayaProjects\3RT_ASG1\sourceimages\textureAtlas\textureAtlas_standardSurface1_Metal.1001.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Implementation: "Implementation::StingrayPBS1_Implementation", "" {
+		Version: 100
+		Properties60:  {
+			Property: "ShaderLanguage", "KString", "", "SFX"
+			Property: "ShaderLanguageVersion", "KString", "", "28"
+			Property: "RenderAPI", "KString", "", "SFX_PBS_SHADER"
+			Property: "RenderAPIVersion", "KString", "", ""
+			Property: "RootBindingName", "KString", "", "root"
+			Property: "Constants", "Compound", ""
+			Property: "ShaderGraph", "Blob", "",32954 {
+				BinaryData: "U0ZCX1dJTiA9IHsgcGFyZW50X21hdGVyaWFsID0gImNvcmUvc3RpbmdyYXlfcmVuZGVyZXIvc2hhZGVyX2ltcG9ydC9zdGFuZGFyZCIgLyoKVmVyc2lvbj0yOApHcm91cFZlcnNpb249LTEuMDAwMDAwCkFkdmFuY2VkPTAKSGVscElEPTAKUGFyZW50TWF0ZXJpYWw9cHJlc2V0cy9TdGFuZGFyZApOdW1iZXJPZk5vZGVzPTMyCiNOVD0yMDE4OSAwCglQQz0zCgluYW1lPTEgdj01MDAwIE1ldGFsbGljX01hcF9Td2l0Y2gKCXBvc3g9MSB2PTIwMDMgMTAyMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgMjQwLjAwMDAwMAoJZ3JvdXA9LTEKCUlTQz00CgkJU1ZUPTUwMjIgMjAwMyAxIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDIgMSAwIAoJCVNEVj0xLjAwMDAwMAoJCVNWVD01MDIyIDIwMDMgMyAwIDEgCgkJU0NTPXIKCQlTVlQ9NTAyMiAyMDAzIDQgMCAwIAoJT1NDPTEKCQlTVlQ9NTAyMiAyMDAzIDUgCgkJQ0M9MQoJCQlDPTAgMCA1IDUgNSA2IDAKCQkJQ1BDPTAKI05UPTIwMTg5IDAKCVBDPTMKCW5hbWU9MSB2PTUwMDAgRW1pc3NpdmVfTWFwX1N3aXRjaAoJcG9zeD0xIHY9MjAwMyA3NDAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDc4MC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9NAoJCVNWVD01MDIyIDIwMDMgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDEgMCAKCQlTRFY9MS4wMDAwMDAKCQlTVlQ9NTAyMiAzMDAyIDMgMCAxIAoJCVNDUz1yZ2IKCQlTVlQ9NTAyMiAzMDAyIDQgMCAwIAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAyIDUgCgkJQ0M9MQoJCQlDPTEg",
+ "MCA1IDEwIDAgMSAwCgkJCUNQQz0wCiNOVD0yMDE4OSAwCglQQz0zCgluYW1lPTEgdj01MDAwIENvbG9yX01hcF9Td2l0Y2gKCXBvc3g9MSB2PTIwMDMgMTAyMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgLTM0MC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9NAoJCVNWVD01MDIyIDIwMDMgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDEgMCAKCQlTRFY9MS4wMDAwMDAKCQlTVlQ9NTAyMiAzMDAyIDMgMCAxIAoJCVNDUz1yZ2IKCQlTVlQ9NTAyMiAzMDAyIDQgMCAwIAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAyIDUgCgkJQ0M9MQoJCQlDPTIgMCA1IDUgMSAyIDAKCQkJQ1BDPTAKI05UPTIwMTg5IDAKCVBDPTMKCW5hbWU9MSB2PTUwMDAgTm9ybWFsX01hcF9Td2l0Y2gKCXBvc3g9MSB2PTIwMDMgMTAyMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgLTYwLjAwMDAwMAoJZ3JvdXA9LTEKCUlTQz00CgkJU1ZUPTUwMjIgMjAwMyAxIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDIgMSAwIAoJCVNEVj0xLjAwMDAwMAoJCVNWVD01MDIyIDMwMDIgMyAwIDAgCgkJU1ZUPTUwMjIgMzAwMiA0IDAgMCAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMiA1IAoJCUNDPTEKCQkJQz0zIDAgNSA1IDQgNSAwCgkJCUNQQz0wCiNOVD0yMDE4OSAwCglQQz0zCgluYW1lPTEgdj01MDAwIFJvdWdobmVzc19NYXBfU3dpdGNoCglwb3N4PTEgdj0yMDAzIDEwMjAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDU0MC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9NAoJCVNWVD01MDIyIDIwMDMgMSAwIDAgCgkJU1ZU",
+ "PTUwMjIgMjAwMyAyIDEgMCAKCQlTRFY9MS4wMDAwMDAKCQlTVlQ9NTAyMiAyMDAzIDMgMCAxIAoJCVNDUz1yCgkJU1ZUPTUwMjIgMjAwMyA0IDAgMCAKCU9TQz0xCgkJU1ZUPTUwMjIgMjAwMyA1IAoJCUNDPTEKCQkJQz00IDAgNSA1IDYgNyAwCgkJCUNQQz0wCiNOVD0yMDE3NiAwCglQQz01Cglwb3N4PTEgdj0yMDAzIDEzNjAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDI2MC4wMDAwMDAKCXNoYWRlcnJlc291cmNlPTEgdj01MDAwIGNvcmUvc3RpbmdyYXlfcmVuZGVyZXIvc2hhZGVyX2ltcG9ydC9zdGFuZGFyZAoJcHJlc2V0X3BhdGg9MSB2PTUwMDAgcHJlc2V0cy9TdGFuZGFyZAoJbm9ybWFsc3BhY2U9MiBlPTAgdj01MDEyIDEKCWdyb3VwPS0xCglJU0M9MTMKCQlTVlQ9NTAyMiAzMDAyIDEgMCAwIAoJCVNWVD01MDIyIDMwMDIgMiAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAzIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDQgMCAwIAoJCVNWVD01MDIyIDMwMDIgNSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyA2IDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDcgMCAwIAoJCVNWVD01MDIyIDMwMDIgOCAwIDAgCgkJU1ZUPTUwMjIgMjAwMyA5IDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDEwIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDExIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDE0IDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDE1IDAgMCAKCU9TQz0wCiNOVD0yMDE4OSAwCglQQz0zCgluYW1lPTEgdj01MDAwIEFvX01hcF9Td3RpY2gKCXBvc3g9MSB2PTIwMDMgMTAyMC4wMDAwMDAKCXBv",
+ "c3k9MSB2PTIwMDMgMTEwMC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9NAoJCVNWVD01MDIyIDIwMDMgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDEgMCAKCQlTRFY9MS4wMDAwMDAKCQlTVlQ9NTAyMiAyMDAzIDMgMCAxIAoJCVNDUz1yCgkJU1ZUPTUwMjIgMjAwMyA0IDEgMCAKCQlTRFY9MS4wMDAwMDAKCU9TQz0xCgkJU1ZUPTUwMjIgMjAwMyA1IAoJCUNDPTEKCQkJQz02IDAgNSA1IDggOSAwCgkJCUNQQz0wCiNOVD0yMDE3OCAwCglQQz0yCglwb3N4PTEgdj0yMDAzIC0yNjAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDQyMC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9MAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAxIDEgCgkJQ0M9MQoJCQlDPTcgMCAxIDI4IDEgMiAwCgkJCUNQQz0wCiNOVD0yMDE3NyAwCglQQz02CgluYW1lPTEgdj01MDAwIHJvdWdobmVzc19tYXAKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyA1NDAuMDAwMDAwCgl0ZXh0dXJlcGF0aD0yIGU9MSB2PTUwMDAgQzovVXNlcnMvY3lhbm4vRG93bmxvYWRzL1kyUzEvM1JUL01heWFQcm9qZWN0cy8zUlRfQVNHMS9zb3VyY2VpbWFnZXMvdGV4dHVyZUF0bGFzL3RleHR1cmVBdGxhc19zdGFuZGFyZFN1cmZhY2UxX1JvdWdobmVzcy4xMDAxLnBuZwoJZW5jb2Rpbmc9MiBlPTAgdj01MDEyIDAKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDQKCWdyb3VwPS0xCglJU0M9MgoJCVNWVD01MDIyIDMwMDEgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDAgMCAKCU9TQz0xCgkJU1ZU",
+ "PTUwMjIgMzAwMyAzIAoJCUNDPTEKCQkJQz04IDAgMyA0IDIgMyAwCgkJCUNQQz0wCiNOVD0yMDE3NyAwCglQQz00CgluYW1lPTEgdj01MDAwIGVtaXNzaXZlX21hcAoJcG9zeD0xIHY9MjAwMyA0MjAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDc4MC4wMDAwMDAKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDUKCWdyb3VwPS0xCglJU0M9MgoJCVNWVD01MDIyIDMwMDEgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDAgMCAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMyAzIAoJCUNDPTEKCQkJQz05IDAgMyAxIDIgMyAwCgkJCUNQQz0wCiNOVD0yMDE4NiAwCglQQz0yCglwb3N4PTEgdj0yMDAzIDEwMjAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDg0MC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9MgoJCVNWVD01MDIyIDMwMDIgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDAgMCAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMiAzIAoJCUNDPTEKCQkJQz0xMCAwIDMgNSA3IDggMAoJCQlDUEM9MAojTlQ9MjAxODUgMAoJUEM9NwoJbmFtZT0xIHY9NTAwMCB1c2VfY29sb3JfbWFwCglwb3N4PTEgdj0yMDAzIDcwMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgLTQwMC4wMDAwMDAKCXR5cGU9MiBlPTAgdj01MDEyIDAKCWRlZmF1bHRzY2FsYXI9MiBlPTAgdj0yMDAzIDEuMDAwMDAwCgl1aXR5cGU9MiBlPTAgdj01MDEyIDEKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDEwCglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMjAwMyAxIAoJCUNDPTEKCQkJQz0xMSAwIDEgMiAw",
+ "IDEgMAoJCQlDUEM9MAojTlQ9MjAxNzcgMAoJUEM9NQoJbmFtZT0xIHY9NTAwMCBjb2xvcl9tYXAKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAtMzQwLjAwMDAwMAoJdGV4dHVyZXBhdGg9MiBlPTEgdj01MDAwIEM6L1VzZXJzL2N5YW5uL0Rvd25sb2Fkcy9ZMlMxLzNSVC9NYXlhUHJvamVjdHMvM1JUX0FTRzEvc291cmNlaW1hZ2VzL3RleHR1cmVBdGxhcy90ZXh0dXJlQXRsYXNfc3RhbmRhcmRTdXJmYWNlMV9BbGJlZG9UcmFuc3BhcmVuY3kuMTAwMS5wbmcKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDEKCWdyb3VwPS0xCglJU0M9MgoJCVNWVD01MDIyIDMwMDEgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDAgMCAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMyAzIAoJCUNDPTEKCQkJQz0xMiAwIDMgMiAyIDMgMAoJCQlDUEM9MAojTlQ9MjAxODUgMAoJUEM9NwoJbmFtZT0xIHY9NTAwMCBiYXNlX2NvbG9yCglwb3N4PTEgdj0yMDAzIDcwMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgLTI0MC4wMDAwMDAKCXR5cGU9MiBlPTAgdj01MDEyIDIKCWRlZmF1bHR2ZWN0aHJlZT0yIGU9MCB2PTMwMDIgMC41MDAwMDAsMC41MDAwMDAsMC41MDAwMDAKCWRlZmF1bHR2ZWN0b3I9MiBlPTAgdj0zMDAzIDAuNTAwMDAwLDAuNTAwMDAwLDAuNTAwMDAwLDAuMDAwMDAwCgl1aW9yZGVyPTIgZT0wIHY9MjAwMiAyMAoJZ3JvdXA9LTEKCUlTQz0wCglPU0M9MQoJCVNWVD01MDIyIDMwMDIgMSAKCQlDQz0xCgkJCUM9MTMgMCAxIDIgMyA0IDAKCQkJ",
+ "Q1BDPTAKI05UPTIwMTg1IDAKCVBDPTcKCW5hbWU9MSB2PTUwMDAgdXNlX25vcm1hbF9tYXAKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAtMTIwLjAwMDAwMAoJdHlwZT0yIGU9MCB2PTUwMTIgMAoJZGVmYXVsdHNjYWxhcj0yIGU9MCB2PTIwMDMgMS4wMDAwMDAKCXVpdHlwZT0yIGU9MCB2PTUwMTIgMQoJdWlvcmRlcj0yIGU9MCB2PTIwMDIgMTEKCWdyb3VwPS0xCglJU0M9MAoJT1NDPTEKCQlTVlQ9NTAyMiAyMDAzIDEgCgkJQ0M9MQoJCQlDPTE0IDAgMSAzIDAgMSAwCgkJCUNQQz0wCiNOVD0yMDE5NCAwCglQQz0yCglwb3N4PTEgdj0yMDAzIDY4MC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgNjAuMDAwMDAwCglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMiAxIAoJCUNDPTEKCQkJQz0xNSAwIDEgMyAzIDQgMAoJCQlDUEM9MAojTlQ9MjAxOTUgMAoJUEM9MgoJcG9zeD0xIHY9MjAwMyA3NDAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIC02MC4wMDAwMDAKCWdyb3VwPS0xCglJU0M9MQoJCVNWVD01MDIyIDMwMDIgMSAwIDEgCgkJU0NTPXJnYgoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAyIDIgCgkJQ0M9MQoJCQlDPTE2IDAgMiAzIDIgMyAwCgkJCUNQQz0wCiNOVD0yMDE3NyAwCglQQz02CgluYW1lPTEgdj01MDAwIG5vcm1hbF9tYXAKCXBvc3g9MSB2PTIwMDMgNDQwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAtNjAuMDAwMDAwCgl0ZXh0dXJlcGF0aD0yIGU9MSB2PTUwMDAgQzovVXNlcnMvY3lhbm4vRG93",
+ "bmxvYWRzL1kyUzEvM1JUL01heWFQcm9qZWN0cy8zUlRfQVNHMS9zb3VyY2VpbWFnZXMvdGV4dHVyZUF0bGFzL3RleHR1cmVBdGxhc19zdGFuZGFyZFN1cmZhY2UxX05vcm1hbC4xMDAxLnBuZwoJZW5jb2Rpbmc9MiBlPTAgdj01MDEyIDIKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDIKCWdyb3VwPS0xCglJU0M9MgoJCVNWVD01MDIyIDMwMDEgMSAwIDAgCgkJU1ZUPTUwMjIgMjAwMyAyIDAgMCAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMyAzIAoJCUNDPTEKCQkJQz0xNyAwIDMgMTYgMCAxIDAKCQkJQ1BDPTAKI05UPTIwMTc3IDAKCVBDPTcKCW5hbWU9MSB2PTUwMDAgbWV0YWxsaWNfbWFwCglwb3N4PTEgdj0yMDAzIDcwMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgMjQwLjAwMDAwMAoJdGV4dHVyZXBhdGg9MiBlPTEgdj01MDAwIEM6L1VzZXJzL2N5YW5uL0Rvd25sb2Fkcy9ZMlMxLzNSVC9NYXlhUHJvamVjdHMvM1JUX0FTRzEvc291cmNlaW1hZ2VzL3RleHR1cmVBdGxhcy90ZXh0dXJlQXRsYXNfc3RhbmRhcmRTdXJmYWNlMV9NZXRhbC4xMDAxLnBuZwoJZW5jb2Rpbmc9MiBlPTAgdj01MDEyIDAKCWZpbHRlcj0yIGU9MCB2PTUwMTIgMQoJdWlvcmRlcj0yIGU9MCB2PTIwMDIgMwoJZ3JvdXA9LTEKCUlTQz0yCgkJU1ZUPTUwMjIgMzAwMSAxIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDIgMCAwIAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAzIDMgCgkJQ0M9MQoJCQlDPTE4IDAgMyAwIDIgMyAwCgkJCUNQQz0wCiNOVD0yMDE4NSAwCglQQz03CgluYW1lPTEgdj01",
+ "MDAwIHVzZV9tZXRhbGxpY19tYXAKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAxODAuMDAwMDAwCgl0eXBlPTIgZT0wIHY9NTAxMiAwCglkZWZhdWx0c2NhbGFyPTIgZT0wIHY9MjAwMyAxLjAwMDAwMAoJdWl0eXBlPTIgZT0wIHY9NTAxMiAxCgl1aW9yZGVyPTIgZT0wIHY9MjAwMiAxMgoJZ3JvdXA9LTEKCUlTQz0wCglPU0M9MQoJCVNWVD01MDIyIDIwMDMgMSAKCQlDQz0xCgkJCUM9MTkgMCAxIDAgMCAxIDAKCQkJQ1BDPTAKI05UPTIwMTg1IDAKCVBDPTUKCW5hbWU9MSB2PTUwMDAgbWV0YWxsaWMKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAzNDAuMDAwMDAwCgl0eXBlPTIgZT0wIHY9NTAxMiAwCgl1aW9yZGVyPTIgZT0wIHY9MjAwMiAyMQoJZ3JvdXA9LTEKCUlTQz0wCglPU0M9MQoJCVNWVD01MDIyIDIwMDMgMSAKCQlDQz0xCgkJCUM9MjAgMCAxIDAgMyA0IDAKCQkJQ1BDPTAKI05UPTIwMTg1IDAKCVBDPTcKCW5hbWU9MSB2PTUwMDAgdXNlX3JvdWdobmVzc19tYXAKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyA0ODAuMDAwMDAwCgl0eXBlPTIgZT0wIHY9NTAxMiAwCglkZWZhdWx0c2NhbGFyPTIgZT0wIHY9MjAwMyAxLjAwMDAwMAoJdWl0eXBlPTIgZT0wIHY9NTAxMiAxCgl1aW9yZGVyPTIgZT0wIHY9MjAwMiAxMwoJZ3JvdXA9LTEKCUlTQz0wCglPU0M9MQoJCVNWVD01MDIyIDIwMDMgMSAKCQlDQz0xCgkJCUM9MjEgMCAxIDQgMCAxIDAKCQkJQ1BD",
+ "PTAKI05UPTIwMTg1IDAKCVBDPTYKCW5hbWU9MSB2PTUwMDAgcm91Z2huZXNzCglwb3N4PTEgdj0yMDAzIDcwMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgNjQwLjAwMDAwMAoJdHlwZT0yIGU9MCB2PTUwMTIgMAoJZGVmYXVsdHNjYWxhcj0yIGU9MCB2PTIwMDMgMC4zMzAwMDAKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDIyCglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMjAwMyAxIAoJCUNDPTEKCQkJQz0yMiAwIDEgNCAzIDQgMAoJCQlDUEM9MAojTlQ9MjAxODUgMAoJUEM9NQoJbmFtZT0xIHY9NTAwMCBlbWlzc2l2ZQoJcG9zeD0xIHY9MjAwMyA0MjAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDg4MC4wMDAwMDAKCXR5cGU9MiBlPTAgdj01MDEyIDIKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDIzCglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMiAxIAoJCUNDPTEKCQkJQz0yMyAwIDEgMSAzIDQgMAoJCQlDUEM9MAojTlQ9MjAxODUgMAoJUEM9NgoJbmFtZT0xIHY9NTAwMCB1c2VfZW1pc3NpdmVfbWFwCglwb3N4PTEgdj0yMDAzIDQyMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgNzIwLjAwMDAwMAoJdHlwZT0yIGU9MCB2PTUwMTIgMAoJdWl0eXBlPTIgZT0wIHY9NTAxMiAxCgl1aW9yZGVyPTIgZT0wIHY9MjAwMiAxNAoJZ3JvdXA9LTEKCUlTQz0wCglPU0M9MQoJCVNWVD01MDIyIDIwMDMgMSAKCQlDQz0xCgkJCUM9MjQgMCAxIDEgMCAxIDAKCQkJQ1BDPTAKI05UPTIwMTg1IDAKCVBDPTYKCW5hbWU9MSB2PTUwMDAg",
+ "dXNlX2FvX21hcAoJcG9zeD0xIHY9MjAwMyA3MDAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDExMDAuMDAwMDAwCgl0eXBlPTIgZT0wIHY9NTAxMiAwCgl1aXR5cGU9MiBlPTAgdj01MDEyIDEKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDE1Cglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMjAwMyAxIAoJCUNDPTEKCQkJQz0yNSAwIDEgNiAwIDEgMAoJCQlDUEM9MAojTlQ9MjAxNzcgMAoJUEM9NgoJbmFtZT0xIHY9NTAwMCBhb19tYXAKCXBvc3g9MSB2PTIwMDMgNzAwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAxMTYwLjAwMDAwMAoJZW5jb2Rpbmc9MiBlPTAgdj01MDEyIDAKCWZpbHRlcj0yIGU9MCB2PTUwMTIgMQoJdWlvcmRlcj0yIGU9MCB2PTIwMDIgNgoJZ3JvdXA9LTEKCUlTQz0yCgkJU1ZUPTUwMjIgMzAwMSAxIDAgMCAKCQlTVlQ9NTAyMiAyMDAzIDIgMCAwIAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAzIDMgCgkJQ0M9MQoJCQlDPTI2IDAgMyA2IDIgMyAwCgkJCUNQQz0wCiNOVD0yMDE4NSAwCglQQz02CgluYW1lPTEgdj01MDAwIGVtaXNzaXZlX2ludGVuc2l0eQoJcG9zeD0xIHY9MjAwMyA3NDAuMDAwMDAwCglwb3N5PTEgdj0yMDAzIDkyMC4wMDAwMDAKCXR5cGU9MiBlPTAgdj01MDEyIDAKCW1heHJhbmdlPTIgZT0wIHY9MjAwMyAxMC4wMDAwMDAKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDUzCglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMjAwMyAxIAoJCUNDPTEKCQkJQz0yNyAwIDEgMTAgMSAyIDAKCQkJQ1BD",
+ "PTAKI05UPTIwMTg2IDAKCVBDPTIKCXBvc3g9MSB2PTIwMDMgLTYwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyA0MDAuMDAwMDAwCglncm91cD0tMQoJSVNDPTIKCQlTVlQ9NTAyMiAzMDAxIDEgMCAwIAoJCVNWVD01MDIyIDMwMDEgMiAwIDAgCglPU0M9MQoJCVNWVD01MDIyIDMwMDEgMyAKCQlDQz0xCgkJCUM9MjggMCAzIDI5IDEgMiAwCgkJCUNQQz0wCiNOVD0yMDE4NyAwCglQQz0yCglwb3N4PTEgdj0yMDAzIDEyMC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgNDAwLjAwMDAwMAoJZ3JvdXA9LTEKCUlTQz0yCgkJU1ZUPTUwMjIgMzAwMSAxIDAgMCAKCQlTVlQ9NTAyMiAzMDAxIDIgMCAwIAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAxIDMgCgkJQ0M9NgoJCQlDPTI5IDAgMyAxMiAwIDEgMAoJCQlDUEM9MAoJCQlDPTI5IDAgMyAxNyAwIDEgMAoJCQlDUEM9MAoJCQlDPTI5IDAgMyAxOCAwIDEgMAoJCQlDUEM9MAoJCQlDPTI5IDAgMyA4IDAgMSAwCgkJCUNQQz0wCgkJCUM9MjkgMCAzIDkgMCAxIDAKCQkJQ1BDPTAKCQkJQz0yOSAwIDMgMjYgMCAxIDAKCQkJQ1BDPTAKI05UPTIwMTg1IDAKCVBDPTcKCW5hbWU9MSB2PTUwMDAgdXZfb2Zmc2V0Cglwb3N4PTEgdj0yMDAzIC02MC4wMDAwMDAKCXBvc3k9MSB2PTIwMDMgMzQwLjAwMDAwMAoJdHlwZT0yIGU9MCB2PTUwMTIgMQoJbWlucmFuZ2U9MiBlPTAgdj0yMDAzIC0xMDAwMDEuMDAwMDAwCgltYXhyYW5nZT0yIGU9MCB2PTIwMDMgMTAwMDAxLjAwMDAwMAoJdWlvcmRlcj0yIGU9MCB2PTIwMDIgNjAKCWdy",
+ "b3VwPS0xCglJU0M9MAoJT1NDPTEKCQlTVlQ9NTAyMiAzMDAxIDEgCgkJQ0M9MQoJCQlDPTMwIDAgMSAyOSAwIDEgMAoJCQlDUEM9MAojTlQ9MjAxODUgMAoJUEM9OQoJbmFtZT0xIHY9NTAwMCB1dl9zY2FsZQoJcG9zeD0xIHY9MjAwMyAtMjQwLjAwMDAwMAoJcG9zeT0xIHY9MjAwMyAzNDAuMDAwMDAwCgl0eXBlPTIgZT0wIHY9NTAxMiAxCglkZWZhdWx0dmVjdHdvPTIgZT0wIHY9MzAwMSAxLjAwMDAwMCwxLjAwMDAwMAoJZGVmYXVsdHZlY3Rvcj0yIGU9MCB2PTMwMDMgMS4wMDAwMDAsMS4wMDAwMDAsMC4wMDAwMDAsMC4wMDAwMDAKCW1pbnJhbmdlPTIgZT0wIHY9MjAwMyAtMTAwMDAxLjAwMDAwMAoJbWF4cmFuZ2U9MiBlPTAgdj0yMDAzIDEwMDAwMS4wMDAwMDAKCXVpb3JkZXI9MiBlPTAgdj0yMDAyIDYxCglncm91cD0tMQoJSVNDPTAKCU9TQz0xCgkJU1ZUPTUwMjIgMzAwMSAxIAoJCUNDPTEKCQkJQz0zMSAwIDEgMjggMCAxIDAKCQkJQ1BDPTAKCiAqLyB9IApjb25uZWN0aW9ucyA9IFsKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiYWNhNjkwY2ItNjMwNS00YTJmLWJmM2QtNjkxODNhNDkzZGIzIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI2IiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMyIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVj",
+ "dG9yX2lkID0gIkNFRDdCQkYzLTBCNDgtNDMzNS1COTMzLTA5NUE0MUNBMDI5NCIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMyIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTIiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICI0Q0JCNDQ4MC03OUU4LTRDRTctQUMwRi04QjA5QkFGMTIzOTAiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjMiIAoJCX0gCgkJc2VsZWN0ID0gWyAKCQkJInJnYiIgCgkJCV0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjEzIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiMWVlOWFmMWYtNjVmMi00NzM5LWFkMjgtNWVhNmEwZTY4ZmMzIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjEzIiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIzMCIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIjFlZTlhZjFmLTY1ZjItNDczOS1hZDI4LTVlYTZhMGU2OGZjMyIgCgkJCWluc3RhbmNlX2lk",
+ "ID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxOCIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMzAiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICIxZWU5YWYxZi02NWYyLTQ3MzktYWQyOC01ZWE2YTBlNjhmYzMiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTkiIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjMwIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiMWVlOWFmMWYtNjVmMi00NzM5LWFkMjgtNWVhNmEwZTY4ZmMzIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI5IiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIzMCIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIjFlZTlhZjFmLTY1ZjItNDczOS1hZDI4LTVlYTZhMGU2OGZjMyIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxMCIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJh",
+ "LWFiYmEtYWJiYS1hYmJhYWJiYWFiMzAiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICIxZWU5YWYxZi02NWYyLTQ3MzktYWQyOC01ZWE2YTBlNjhmYzMiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjciIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjMwIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiZjcyNTk3YzQtNzQ4Ny00MTlhLWFmZmItZGY2OTBlNjU4MmUxIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjMwIiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIzMSIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIjA4MDZkYjBkLTJjNGEtNDNjYS05OWNjLWY1YTJmMDM2YThlOCIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIzMCIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjkiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICJjNTgyM2M3NS00YWU1LTRj",
+ "NzEtYjA3MC0zMTVmYTRkMDNlOGUiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjkiIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjMyIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiMjQyZDE2NDgtYTYyNi00NDViLTk1MzQtYmNjZWMwOTQxMTJmIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjI5IiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiOCIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIkYyRjc0RTU4LTQwMkQtNDcyQi04N0RELTMzMUUwMERCNDE2QyIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMyIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTQiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICJiMWM4NjQwOC1hYWNiLTQ0NjYtYjc1NC1kZGNmMzdhM2EyYzgiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjYiIAoJCX0gCgkJc291cmNl",
+ "ID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI0IiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiQ0VEN0JCRjMtMEI0OC00MzM1LUI5MzMtMDk1QTQxQ0EwMjk0IiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI0IiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxNSIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIjRDQkI0NDgwLTc5RTgtNENFNy1BQzBGLThCMDlCQUYxMjM5MCIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNCIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTciIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICJmNzI1OTdjNC03NDg3LTQxOWEtYWZmYi1kZjY5MGU2NTgyZTEiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTciIAoJCX0gCgkJc2VsZWN0ID0gWyAKCQkJInJnYiIgCgkJCV0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjE4IiAK",
+ "CQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiRjJGNzRFNTgtNDAyRC00NzJCLTg3REQtMzMxRTAwREI0MTZDIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI0IiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxNiIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gImFkNWUwNTJmLWQzMTYtNGEwZi04Yjc5LTUzYzM4MjA0ZDYxYiIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNiIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjEiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICJDRUQ3QkJGMy0wQjQ4LTQzMzUtQjkzMy0wOTVBNDFDQTAyOTQiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjEiIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjIwIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiNENCQjQ0ODAtNzlFOC00Q0U3LUFDMEYtOEIwOUJBRjEyMzkwIiAKCQkJ",
+ "aW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmIxIiAKCQl9IAoJCXNlbGVjdCA9IFsgCgkJCSJyIiAKCQkJXSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTkiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICJGMkY3NEU1OC00MDJELTQ3MkItODdERC0zMzFFMDBEQjQxNkMiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjEiIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjIxIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiMzZiYTQ2ZDItZjZlYS00ZTYwLWE0MjgtZmRjMTdjNzViYzYyIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI2IiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNSIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIkNFRDdCQkYzLTBCNDgtNDMzNS1COTMzLTA5NUE0MUNBMDI5NCIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNSIgCgkJfSAKCQlzb3Vy",
+ "Y2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjIiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICI0Q0JCNDQ4MC03OUU4LTRDRTctQUMwRi04QjA5QkFGMTIzOTAiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjUiIAoJCX0gCgkJc2VsZWN0ID0gWyAKCQkJInIiIAoJCQldIAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiOSIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIkYyRjc0RTU4LTQwMkQtNDcyQi04N0RELTMzMUUwMERCNDE2QyIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNSIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjMiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICIxMTY0YTVlZi00NTYzLTQ3OTUtYjNiNS00MjgyNWQ2ZGYwMzciIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjYiIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjExIiAK",
+ "CQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiYzU4MjNjNzUtNGFlNS00YzcxLWIwNzAtMzE1ZmE0ZDAzZThlIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjExIiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMiIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIkNFRDdCQkYzLTBCNDgtNDMzNS1COTMzLTA5NUE0MUNBMDI5NCIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMiIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjUiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICI0Q0JCNDQ4MC03OUU4LTRDRTctQUMwRi04QjA5QkFGMTIzOTAiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjIiIAoJCX0gCgkJc2VsZWN0ID0gWyAKCQkJInJnYiIgCgkJCV0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjEwIiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiRjJGNzRFNTgtNDAy",
+ "RC00NzJCLTg3REQtMzMxRTAwREI0MTZDIiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmIyIiAKCQl9IAoJCXNvdXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIyNCIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIjI0MmQxNjQ4LWE2MjYtNDQ1Yi05NTM0LWJjY2VjMDk0MTEyZiIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxMSIgCgkJfSAKCQlzb3VyY2UgPSB7IAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjgiIAoJCX0gCgl9IAoJeyAKCQlkZXN0aW5hdGlvbiA9IHsgCgkJCWNvbm5lY3Rvcl9pZCA9ICI1OWZkMWNmNC1mNzM2LTQ3MGQtODUxMC0xZGQ3YzAxNjYzOWUiIAoJCQlpbnN0YW5jZV9pZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjYiIAoJCX0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI3IiAKCQl9IAoJfSAKCXsgCgkJZGVzdGluYXRpb24gPSB7IAoJCQljb25uZWN0b3JfaWQgPSAiQ0VEN0JCRjMtMEI0OC00MzM1LUI5MzMtMDk1QTQxQ0EwMjk0IiAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI3IiAKCQl9IAoJCXNv",
+ "dXJjZSA9IHsgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIyNiIgCgkJfSAKCX0gCgl7IAoJCWRlc3RpbmF0aW9uID0geyAKCQkJY29ubmVjdG9yX2lkID0gIjRDQkI0NDgwLTc5RTgtNENFNy1BQzBGLThCMDlCQUYxMjM5MCIgCgkJCWluc3RhbmNlX2lkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNyIgCgkJfSAKCQlzZWxlY3QgPSBbIAoJCQkiciIgCgkJCV0gCgkJc291cmNlID0geyAKCQkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjI3IiAKCQl9IAoJfSAKXQpjb25zdGFudHMgPSBbCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICIzOUJDNzYxOS0yNzY4LTQ4MEItQUNGRC02M0ZBNjZFRjY5MDUiIAoJCWlkID0gIjFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMyIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmIzIiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJXSAKCX0gCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICIzOUJDNzYxOS0yNzY4LTQ4MEItQUNGRC02M0ZBNjZFRjY5MDUiIAoJCWlkID0gIjFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNCIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI0IiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJXSAKCX0gCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICIz",
+ "OUJDNzYxOS0yNzY4LTQ4MEItQUNGRC02M0ZBNjZFRjY5MDUiIAoJCWlkID0gIjFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMSIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmIxIiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJXSAKCX0gCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICIzOUJDNzYxOS0yNzY4LTQ4MEItQUNGRC02M0ZBNjZFRjY5MDUiIAoJCWlkID0gIjFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNSIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI1IiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJXSAKCX0gCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICIzOUJDNzYxOS0yNzY4LTQ4MEItQUNGRC02M0ZBNjZFRjY5MDUiIAoJCWlkID0gIjFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMiIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmIyIiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJXSAKCX0gCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICIzOUJDNzYxOS0yNzY4LTQ4MEItQUNGRC02M0ZBNjZFRjY5MDUiIAoJCWlkID0gIjFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNyIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI3IiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJ",
+ "XSAKCX0gCgl7IAoJCWNvbm5lY3Rvcl9pZCA9ICJGMkY3NEU1OC00MDJELTQ3MkItODdERC0zMzFFMDBEQjQxNkMiIAoJCWlkID0gIjNiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiNyIgCgkJaW5zdGFuY2VfaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI3IiAKCQl2YWx1ZSA9IFsgCgkJCTEuMDAwMDAwCgkJXSAKCX0gCl0Kbm9kZXMgPSBbCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjYiIAoJCW9wdGlvbnMgPSBbIAoJCQkiMmIxMzY0NDctNjc2ZS00OTQzLTk5N2ItMDRhMjhhZTY4NDk3IgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQkxMzYwIAoJCQkyNjAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJTdGFuZGFyZCBCYXNlIiAKCQl0eXBlID0gImNvcmUvc3RpbmdyYXlfcmVuZGVyZXIvb3V0cHV0X25vZGVzL3N0YW5kYXJkX2Jhc2UiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiMyIgCgkJb3B0aW9ucyA9IFsgCgkJCSI5QTg0MjgyQi1GMUEyLTQ2RDQtOUZDNC01QTc2RkM5QjMwREQiCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTEwMjAgCgkJCS0zNDAgCgkJXSAKCQlzYW1wbGVycyA9",
+ "IHsgCgkJfSAKCQl0aXRsZSA9ICJDb2xvciBNYXAgU3dpdGNoIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL2lmIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJCW1hdGVyaWFsX3ZhcmlhYmxlID0geyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJVc2UgQ29sb3IgTWFwIiAKCQkJCW5hbWUgPSAidXNlX2NvbG9yX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gMSAKCQkJCQltaW4gPSAwLjAwMDAwMCAKCQkJCQlzdGVwID0gMSAKCQkJCQlvcmRlciA9IDEwIAoJCQkJCXVpX3R5cGUgPSAiY2hlY2tib3giIAoJCQkJfSAKCQkJCXR5cGUgPSAiZmxvYXQiIAoJCQkJdmFsdWUgPSAxLjAwMDAwMCAKCQkJfSAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxMiIgCgkJb3B0aW9ucyA9IFsgCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTcwMCAKCQkJLTQwMCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIlVzZSBDb2xvciBNYXAiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvbWF0ZXJpYWxfdmFyaWFibGUiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxMyIgCgkJb3B0aW9ucyA9IFsgCgkJCSIxZTA2NzQ2NC0xMmQ4LTQ4MjYtOWI3Mi1jZmQ1NzY1MDAzZTMiCgkJ",
+ "CSJmYjNmNzA5Yi1hNTRhLTRlOTMtYWM5Zi1lOWZjNzZmYjhiY2QiCgkJCSI1ZGQ1OWIzZC0xNzYyLTRhMTQtOTkzMC03NTAwMjMwZWYzZGIiCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTcwMCAKCQkJLTM0MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQkJdGV4dHVyZV9tYXAgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIkNvbG9yIE1hcCIgCgkJCQlzbG90X25hbWUgPSAiY29sb3JfbWFwIiAKCQkJCXVpID0geyAKCQkJCQlvcmRlciA9IDEgCgkJCQl9IAoJCQl9IAoJCX0gCgkJdGl0bGUgPSAiQ29sb3IgTWFwIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL3NhbXBsZV90ZXh0dXJlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMzAiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQkxMjAgCgkJCTQwMCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIkFkZCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9hZGQiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQkJbWF0ZXJpYWxfdmFyaWFibGUgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIlV2IE9mZnNldCIgCgkJCQluYW1lID0gInV2X29mZnNldCIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gWyAxMDAwMDEuMDAwMDAwIDEw",
+ "MDAwMS4wMDAwMDAgXSAKCQkJCQltaW4gPSBbIC0xMDAwMDEuMDAwMDAwIC0xMDAwMDEuMDAwMDAwIF0gCgkJCQkJc3RlcCA9IFsgMC4wMSAwLjAxIF0gCgkJCQkJb3JkZXIgPSA2MCAKCQkJCX0gCgkJCQl0eXBlID0gImZsb2F0MiIgCgkJCQl2YWx1ZSA9IFswLjAwMDAwMCAwLjAwMDAwMF0gCgkJCX0gCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMzEiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQktNjAgCgkJCTM0MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIlV2IE9mZnNldCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9tYXRlcmlhbF92YXJpYWJsZSIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjI5IiAKCQlvcHRpb25zID0gWyAKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJLTYwIAoJCQk0MDAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJNdWx0aXBseSIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9tdWwiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQkJbWF0ZXJpYWxfdmFyaWFibGUgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIlV2IFNjYWxlIiAKCQkJCW5hbWUgPSAidXZfc2NhbGUiIAoJ",
+ "CQkJdWkgPSB7IAoJCQkJCW1heCA9IFsgMTAwMDAxLjAwMDAwMCAxMDAwMDEuMDAwMDAwIF0gCgkJCQkJbWluID0gWyAtMTAwMDAxLjAwMDAwMCAtMTAwMDAxLjAwMDAwMCBdIAoJCQkJCXN0ZXAgPSBbIDAuMDEgMC4wMSBdIAoJCQkJCW9yZGVyID0gNjEgCgkJCQl9IAoJCQkJdHlwZSA9ICJmbG9hdDIiIAoJCQkJdmFsdWUgPSBbMS4wMDAwMDAgMS4wMDAwMDBdIAoJCQl9IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjMyIiAKCQlvcHRpb25zID0gWyAKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJLTI0MCAKCQkJMzQwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiVXYgU2NhbGUiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvbWF0ZXJpYWxfdmFyaWFibGUiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiOCIgCgkJb3B0aW9ucyA9IFsgCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCS0yNjAgCgkJCTQyMCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIlRleGNvb3JkMCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy90ZXh0dXJlX2Nvb3JkaW5hdGUwIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJCW1hdGVyaWFsX3ZhcmlhYmxlID0g",
+ "eyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJCYXNlIENvbG9yIiAKCQkJCW5hbWUgPSAiYmFzZV9jb2xvciIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gWyAxLjAwMDAwMCAxLjAwMDAwMCAxLjAwMDAwMCBdIAoJCQkJCW1pbiA9IFsgMC4wMDAwMDAgMC4wMDAwMDAgMC4wMDAwMDAgXSAKCQkJCQlzdGVwID0gWyAwLjAxIDAuMDEgMC4wMSBdIAoJCQkJCW9yZGVyID0gMjAgCgkJCQkJdWlfdHlwZSA9ICJjb2xvciIgCgkJCQl9IAoJCQkJdHlwZSA9ICJmbG9hdDMiIAoJCQkJdmFsdWUgPSBbMC41MDAwMDAgMC41MDAwMDAgMC41MDAwMDBdIAoJCQl9IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjE0IiAKCQlvcHRpb25zID0gWyAKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJNzAwIAoJCQktMjQwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiQmFzZSBDb2xvciIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9tYXRlcmlhbF92YXJpYWJsZSIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYmI0IiAKCQlvcHRpb25zID0gWyAKCQkJIjlBODQyODJCLUYxQTItNDZENC05RkM0LTVBNzZGQzlCMzBERCIKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJMTAyMCAKCQkJLTYwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiTm9ybWFs",
+ "IE1hcCBTd2l0Y2giIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvaWYiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQkJbWF0ZXJpYWxfdmFyaWFibGUgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIlVzZSBOb3JtYWwgTWFwIiAKCQkJCW5hbWUgPSAidXNlX25vcm1hbF9tYXAiIAoJCQkJdWkgPSB7IAoJCQkJCW1heCA9IDEgCgkJCQkJbWluID0gMC4wMDAwMDAgCgkJCQkJc3RlcCA9IDEgCgkJCQkJb3JkZXIgPSAxMSAKCQkJCQl1aV90eXBlID0gImNoZWNrYm94IiAKCQkJCX0gCgkJCQl0eXBlID0gImZsb2F0IiAKCQkJCXZhbHVlID0gMS4wMDAwMDAgCgkJCX0gCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTUiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk3MDAgCgkJCS0xMjAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJVc2UgTm9ybWFsIE1hcCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9tYXRlcmlhbF92YXJpYWJsZSIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjE3IiAKCQlvcHRpb25zID0gWyAKCQkJIjBhMGZiNWFkLTE0NWQtNDIyOS1hYmQ0LTViMzY1NjI2MDdiMyIKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJ",
+ "NzQwIAoJCQktNjAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJUYW5nZW50IFRvIFdvcmxkIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL3RhbmdlbnRfdG9fd29ybGQiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxOCIgCgkJb3B0aW9ucyA9IFsgCgkJCSIxZTA2NzQ2NC0xMmQ4LTQ4MjYtOWI3Mi1jZmQ1NzY1MDAzZTMiCgkJCSI5MGUyMDgyNi04Njg5LTQyZmEtOGUyNC1mNDg0ZWM2NGM1YzMiCgkJCSI1ZGQ1OWIzZC0xNzYyLTRhMTQtOTkzMC03NTAwMjMwZWYzZGIiCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTQ0MCAKCQkJLTYwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCQl0ZXh0dXJlX21hcCA9IHsgCgkJCQlkaXNwbGF5X25hbWUgPSAiTm9ybWFsIE1hcCIgCgkJCQlzbG90X25hbWUgPSAibm9ybWFsX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJb3JkZXIgPSAyIAoJCQkJfSAKCQkJfSAKCQl9IAoJCXRpdGxlID0gIk5vcm1hbCBNYXAiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvc2FtcGxlX3RleHR1cmUiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIxNiIgCgkJb3B0aW9ucyA9IFsgCgkJXSAKCQlw",
+ "b3NpdGlvbiA9IFsgCgkJCTY4MCAKCQkJNjAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJXb3JsZCBOb3JtYWwiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvd29ybGRfc3BhY2Vfbm9ybWFsIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjEiIAoJCW9wdGlvbnMgPSBbIAoJCQkiOUE4NDI4MkItRjFBMi00NkQ0LTlGQzQtNUE3NkZDOUIzMEREIgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQkxMDIwIAoJCQkyNDAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJNZXRhbGxpYyBNYXAgU3dpdGNoIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL2lmIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJCW1hdGVyaWFsX3ZhcmlhYmxlID0geyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJVc2UgTWV0YWxsaWMgTWFwIiAKCQkJCW5hbWUgPSAidXNlX21ldGFsbGljX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gMSAKCQkJCQltaW4gPSAwLjAwMDAwMCAKCQkJCQlzdGVwID0gMSAKCQkJCQlvcmRlciA9IDEyIAoJCQkJCXVpX3R5cGUgPSAiY2hlY2tib3giIAoJCQkJfSAKCQkJCXR5cGUgPSAiZmxvYXQiIAoJCQkJdmFsdWUgPSAxLjAwMDAwMCAKCQkJfSAKCQl9IAoJCWlkID0gImFi",
+ "YmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIyMCIgCgkJb3B0aW9ucyA9IFsgCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTcwMCAKCQkJMTgwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiVXNlIE1ldGFsbGljIE1hcCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9tYXRlcmlhbF92YXJpYWJsZSIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjE5IiAKCQlvcHRpb25zID0gWyAKCQkJImY2NjlhM2E2LTAzNzYtNDE4Ny04NDBlLTgwMDAwZTI5MzlkNSIKCQkJImU5NGU1M2U2LTQ5YjYtNDE5NC1hNzQ3LThmMDY0YTU5MzJlMCIKCQkJIjVkZDU5YjNkLTE3NjItNGExNC05OTMwLTc1MDAyMzBlZjNkYiIKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJNzAwIAoJCQkyNDAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJCXRleHR1cmVfbWFwID0geyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJNZXRhbGxpYyBNYXAiIAoJCQkJc2xvdF9uYW1lID0gIm1ldGFsbGljX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJb3JkZXIgPSAzIAoJCQkJfSAKCQkJfSAKCQl9IAoJCXRpdGxlID0gIk1ldGFsbGljIE1hcCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9zYW1wbGVfdGV4dHVyZSIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBv",
+ "cnQgPSB7IAoJCQltYXRlcmlhbF92YXJpYWJsZSA9IHsgCgkJCQlkaXNwbGF5X25hbWUgPSAiTWV0YWxsaWMiIAoJCQkJbmFtZSA9ICJtZXRhbGxpYyIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gMS4wMDAwMDAgCgkJCQkJbWluID0gMC4wMDAwMDAgCgkJCQkJc3RlcCA9IDAuMDEgCgkJCQkJb3JkZXIgPSAyMSAKCQkJCX0gCgkJCQl0eXBlID0gImZsb2F0IiAKCQkJCXZhbHVlID0gMC4wMDAwMDAgCgkJCX0gCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjEiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk3MDAgCgkJCTM0MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIk1ldGFsbGljIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL21hdGVyaWFsX3ZhcmlhYmxlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjUiIAoJCW9wdGlvbnMgPSBbIAoJCQkiOUE4NDI4MkItRjFBMi00NkQ0LTlGQzQtNUE3NkZDOUIzMEREIgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQkxMDIwIAoJCQk1NDAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJSb3VnaG5lc3MgTWFwIFN3aXRjaCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9pZiIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJ",
+ "CQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCQltYXRlcmlhbF92YXJpYWJsZSA9IHsgCgkJCQlkaXNwbGF5X25hbWUgPSAiVXNlIFJvdWdobmVzcyBNYXAiIAoJCQkJbmFtZSA9ICJ1c2Vfcm91Z2huZXNzX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gMSAKCQkJCQltaW4gPSAwLjAwMDAwMCAKCQkJCQlzdGVwID0gMSAKCQkJCQlvcmRlciA9IDEzIAoJCQkJCXVpX3R5cGUgPSAiY2hlY2tib3giIAoJCQkJfSAKCQkJCXR5cGUgPSAiZmxvYXQiIAoJCQkJdmFsdWUgPSAxLjAwMDAwMCAKCQkJfSAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIyMiIgCgkJb3B0aW9ucyA9IFsgCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTcwMCAKCQkJNDgwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiVXNlIFJvdWdobmVzcyBNYXAiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvbWF0ZXJpYWxfdmFyaWFibGUiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWJiOSIgCgkJb3B0aW9ucyA9IFsgCgkJCSIxZTA2NzQ2NC0xMmQ4LTQ4MjYtOWI3Mi1jZmQ1NzY1MDAzZTMiCgkJCSJlOTRlNTNlNi00OWI2LTQxOTQtYTc0Ny04ZjA2NGE1OTMyZTAiCgkJCSI1ZGQ1OWIzZC0xNzYyLTRhMTQtOTkzMC03NTAwMjMwZWYzZGIiCgkJXSAKCQlw",
+ "b3NpdGlvbiA9IFsgCgkJCTcwMCAKCQkJNTQwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCQl0ZXh0dXJlX21hcCA9IHsgCgkJCQlkaXNwbGF5X25hbWUgPSAiUm91Z2huZXNzIE1hcCIgCgkJCQlzbG90X25hbWUgPSAicm91Z2huZXNzX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJb3JkZXIgPSA0IAoJCQkJfSAKCQkJfSAKCQl9IAoJCXRpdGxlID0gIlJvdWdobmVzcyBNYXAiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvc2FtcGxlX3RleHR1cmUiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQkJbWF0ZXJpYWxfdmFyaWFibGUgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIlJvdWdobmVzcyIgCgkJCQluYW1lID0gInJvdWdobmVzcyIgCgkJCQl1aSA9IHsgCgkJCQkJbWF4ID0gMS4wMDAwMDAgCgkJCQkJbWluID0gMC4wMDAwMDAgCgkJCQkJc3RlcCA9IDAuMDEgCgkJCQkJb3JkZXIgPSAyMiAKCQkJCX0gCgkJCQl0eXBlID0gImZsb2F0IiAKCQkJCXZhbHVlID0gMC4zMzAwMDAgCgkJCX0gCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjMiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk3MDAgCgkJCTY0MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIlJvdWdobmVzcyIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9tYXRlcmlhbF92YXJpYWJsZSIgCgl9IAoJeyAKCQljb250ZW50",
+ "X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjExIiAKCQlvcHRpb25zID0gWyAKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJMTAyMCAKCQkJODQwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiTXVsdGlwbHkiIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvbXVsIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjIiIAoJCW9wdGlvbnMgPSBbIAoJCQkiOUE4NDI4MkItRjFBMi00NkQ0LTlGQzQtNUE3NkZDOUIzMEREIgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk3NDAgCgkJCTc4MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIkVtaXNzaXZlIE1hcCBTd2l0Y2giIAoJCXR5cGUgPSAiY29yZS9zaGFkZXJfbm9kZXMvaWYiIAoJfSAKCXsgCgkJY29udGVudF9zaXplID0gWyAKCQkJMTYwIAoJCQkwIAoJCV0gCgkJZXhwb3J0ID0geyAKCQkJbWF0ZXJpYWxfdmFyaWFibGUgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIlVzZSBFbWlzc2l2ZSBNYXAiIAoJCQkJbmFtZSA9ICJ1c2VfZW1pc3NpdmVfbWFwIiAKCQkJCXVpID0geyAKCQkJCQltYXggPSAxIAoJCQkJCW1pbiA9IDAuMDAwMDAwIAoJCQkJCXN0ZXAgPSAxIAoJCQkJCW9yZGVyID0g",
+ "MTQgCgkJCQkJdWlfdHlwZSA9ICJjaGVja2JveCIgCgkJCQl9IAoJCQkJdHlwZSA9ICJmbG9hdCIgCgkJCQl2YWx1ZSA9IDAuMDAwMDAwIAoJCQl9IAoJCX0gCgkJaWQgPSAiYWJiYWFiYmEtYWJiYS1hYmJhLWFiYmEtYWJiYWFiYmFhYjI1IiAKCQlvcHRpb25zID0gWyAKCQldIAoJCXBvc2l0aW9uID0gWyAKCQkJNDIwIAoJCQk3MjAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJVc2UgRW1pc3NpdmUgTWFwIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL21hdGVyaWFsX3ZhcmlhYmxlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMTAiIAoJCW9wdGlvbnMgPSBbIAoJCQkiMWUwNjc0NjQtMTJkOC00ODI2LTliNzItY2ZkNTc2NTAwM2UzIgoJCQkiZmIzZjcwOWItYTU0YS00ZTkzLWFjOWYtZTlmYzc2ZmI4YmNkIgoJCQkiNWRkNTliM2QtMTc2Mi00YTE0LTk5MzAtNzUwMDIzMGVmM2RiIgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk0MjAgCgkJCTc4MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQkJdGV4dHVyZV9tYXAgPSB7IAoJCQkJZGlzcGxheV9uYW1lID0gIkVtaXNzaXZlIE1hcCIgCgkJCQlzbG90X25hbWUgPSAiZW1pc3NpdmVfbWFwIiAKCQkJCXVpID0geyAKCQkJCQlvcmRlciA9IDUgCgkJCQl9IAoJCQl9IAoJCX0gCgkJdGl0bGUgPSAiRW1pc3NpdmUgTWFw",
+ "IiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL3NhbXBsZV90ZXh0dXJlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJCW1hdGVyaWFsX3ZhcmlhYmxlID0geyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJFbWlzc2l2ZSIgCgkJCQluYW1lID0gImVtaXNzaXZlIiAKCQkJCXVpID0geyAKCQkJCQltYXggPSBbIDEuMDAwMDAwIDEuMDAwMDAwIDEuMDAwMDAwIF0gCgkJCQkJbWluID0gWyAwLjAwMDAwMCAwLjAwMDAwMCAwLjAwMDAwMCBdIAoJCQkJCXN0ZXAgPSBbIDAuMDEgMC4wMSAwLjAxIF0gCgkJCQkJb3JkZXIgPSAyMyAKCQkJCQl1aV90eXBlID0gImNvbG9yIiAKCQkJCX0gCgkJCQl0eXBlID0gImZsb2F0MyIgCgkJCQl2YWx1ZSA9IFswLjAwMDAwMCAwLjAwMDAwMCAwLjAwMDAwMF0gCgkJCX0gCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjQiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk0MjAgCgkJCTg4MCAKCQldIAoJCXNhbXBsZXJzID0geyAKCQl9IAoJCXRpdGxlID0gIkVtaXNzaXZlIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL21hdGVyaWFsX3ZhcmlhYmxlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJCW1hdGVyaWFsX3ZhcmlhYmxlID0geyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJFbWlzc2l2ZSBJbnRlbnNpdHki",
+ "IAoJCQkJbmFtZSA9ICJlbWlzc2l2ZV9pbnRlbnNpdHkiIAoJCQkJdWkgPSB7IAoJCQkJCW1heCA9IDEwLjAwMDAwMCAKCQkJCQltaW4gPSAwLjAwMDAwMCAKCQkJCQlzdGVwID0gMC4wMSAKCQkJCQlvcmRlciA9IDUzIAoJCQkJfSAKCQkJCXR5cGUgPSAiZmxvYXQiIAoJCQkJdmFsdWUgPSAwLjAwMDAwMCAKCQkJfSAKCQl9IAoJCWlkID0gImFiYmFhYmJhLWFiYmEtYWJiYS1hYmJhLWFiYmFhYmJhYWIyOCIgCgkJb3B0aW9ucyA9IFsgCgkJXSAKCQlwb3NpdGlvbiA9IFsgCgkJCTc0MCAKCQkJOTIwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiRW1pc3NpdmUgSW50ZW5zaXR5IiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL21hdGVyaWFsX3ZhcmlhYmxlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiYjciIAoJCW9wdGlvbnMgPSBbIAoJCQkiOUE4NDI4MkItRjFBMi00NkQ0LTlGQzQtNUE3NkZDOUIzMEREIgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQkxMDIwIAoJCQkxMTAwIAoJCV0gCgkJc2FtcGxlcnMgPSB7IAoJCX0gCgkJdGl0bGUgPSAiQW8gTWFwIFN3dGljaCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9pZiIgCgl9IAoJeyAKCQljb250ZW50X3NpemUgPSBbIAoJCQkxNjAgCgkJCTAgCgkJXSAKCQlleHBvcnQgPSB7IAoJCQltYXRlcmlhbF92YXJp",
+ "YWJsZSA9IHsgCgkJCQlkaXNwbGF5X25hbWUgPSAiVXNlIEFvIE1hcCIgCgkJCQluYW1lID0gInVzZV9hb19tYXAiIAoJCQkJdWkgPSB7IAoJCQkJCW1heCA9IDEgCgkJCQkJbWluID0gMC4wMDAwMDAgCgkJCQkJc3RlcCA9IDEgCgkJCQkJb3JkZXIgPSAxNSAKCQkJCQl1aV90eXBlID0gImNoZWNrYm94IiAKCQkJCX0gCgkJCQl0eXBlID0gImZsb2F0IiAKCQkJCXZhbHVlID0gMC4wMDAwMDAgCgkJCX0gCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjYiIAoJCW9wdGlvbnMgPSBbIAoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk3MDAgCgkJCTExMDAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJfSAKCQl0aXRsZSA9ICJVc2UgQW8gTWFwIiAKCQl0eXBlID0gImNvcmUvc2hhZGVyX25vZGVzL21hdGVyaWFsX3ZhcmlhYmxlIiAKCX0gCgl7IAoJCWNvbnRlbnRfc2l6ZSA9IFsgCgkJCTE2MCAKCQkJMCAKCQldIAoJCWV4cG9ydCA9IHsgCgkJfSAKCQlpZCA9ICJhYmJhYWJiYS1hYmJhLWFiYmEtYWJiYS1hYmJhYWJiYWFiMjciIAoJCW9wdGlvbnMgPSBbIAoJCQkiZjY2OWEzYTYtMDM3Ni00MTg3LTg0MGUtODAwMDBlMjkzOWQ1IgoJCQkiZTk0ZTUzZTYtNDliNi00MTk0LWE3NDctOGYwNjRhNTkzMmUwIgoJCQkiNWRkNTliM2QtMTc2Mi00YTE0LTk5MzAtNzUwMDIzMGVmM2RiIgoJCV0gCgkJcG9zaXRpb24gPSBbIAoJCQk3MDAgCgkJCTExNjAgCgkJXSAKCQlzYW1wbGVycyA9IHsgCgkJCXRleHR1cmVfbWFwID0g",
+ "eyAKCQkJCWRpc3BsYXlfbmFtZSA9ICJBbyBNYXAiIAoJCQkJc2xvdF9uYW1lID0gImFvX21hcCIgCgkJCQl1aSA9IHsgCgkJCQkJb3JkZXIgPSA2IAoJCQkJfSAKCQkJfSAKCQl9IAoJCXRpdGxlID0gIkFvIE1hcCIgCgkJdHlwZSA9ICJjb3JlL3NoYWRlcl9ub2Rlcy9zYW1wbGVfdGV4dHVyZSIgCgl9IApdCnZlcnNpb24gPSAzCgA="
+			}
+		}
+	}
+	BindingTable: "BindingTable::root 26", "" {
+		Version: 100
+		Properties60:  {
+			Property: "TargetName", "KString", "", "root"
+			Property: "TargetType", "KString", "", "shader"
+			Property: "CodeAbsoluteURL", "KString", "", ""
+			Property: "CodeRelativeURL", "KString", "", ""
+			Property: "CodeTAG", "KString", "", "shader"
+			Property: "DescAbsoluteURL", "KString", "", ""
+			Property: "DescRelativeURL", "KString", "", ""
+			Property: "DescTAG", "KString", "", "shader"
+		}
+		Entry: "Maya|use_metallic_map", "FbxPropertyEntry", "use_metallic_map", "FbxSemanticEntry"
+		Entry: "Maya|base_color", "FbxPropertyEntry", "base_color", "FbxSemanticEntry"
+		Entry: "Maya|use_ao_map", "FbxPropertyEntry", "use_ao_map", "FbxSemanticEntry"
+		Entry: "Maya|TEX_emissive_map", "FbxPropertyEntry", "TEX_emissive_map", "FbxSemanticEntry"
+		Entry: "Maya|TEX_metallic_map", "FbxPropertyEntry", "TEX_metallic_map", "FbxSemanticEntry"
+		Entry: "Maya|TEX_ao_map", "FbxPropertyEntry", "TEX_ao_map", "FbxSemanticEntry"
+		Entry: "Maya|uv_offset", "FbxPropertyEntry", "uv_offset", "FbxSemanticEntry"
+		Entry: "Maya|emissive_intensity", "FbxPropertyEntry", "emissive_intensity", "FbxSemanticEntry"
+		Entry: "Maya|metallic", "FbxPropertyEntry", "metallic", "FbxSemanticEntry"
+		Entry: "Maya|TEX_global_specular_cube", "FbxPropertyEntry", "TEX_global_specular_cube", "FbxSemanticEntry"
+		Entry: "Maya|use_roughness_map", "FbxPropertyEntry", "use_roughness_map", "FbxSemanticEntry"
+		Entry: "Maya|use_normal_map", "FbxPropertyEntry", "use_normal_map", "FbxSemanticEntry"
+		Entry: "Maya|use_color_map", "FbxPropertyEntry", "use_color_map", "FbxSemanticEntry"
+		Entry: "Maya|emissive", "FbxPropertyEntry", "emissive", "FbxSemanticEntry"
+		Entry: "Maya|use_emissive_map", "FbxPropertyEntry", "use_emissive_map", "FbxSemanticEntry"
+		Entry: "Maya|uv_scale", "FbxPropertyEntry", "uv_scale", "FbxSemanticEntry"
+		Entry: "Maya|TEX_global_diffuse_cube", "FbxPropertyEntry", "TEX_global_diffuse_cube", "FbxSemanticEntry"
+		Entry: "Maya|TEX_roughness_map", "FbxPropertyEntry", "TEX_roughness_map", "FbxSemanticEntry"
+		Entry: "Maya|roughness", "FbxPropertyEntry", "roughness", "FbxSemanticEntry"
+		Entry: "Maya|TEX_brdf_lut", "FbxPropertyEntry", "TEX_brdf_lut", "FbxSemanticEntry"
+		Entry: "Maya|TEX_color_map", "FbxPropertyEntry", "TEX_color_map", "FbxSemanticEntry"
+		Entry: "Maya|TEX_normal_map", "FbxPropertyEntry", "TEX_normal_map", "FbxSemanticEntry"
+	}
+	GlobalSettings:  {
+		Version: 1000
+		Properties60:  {
+			Property: "UpAxis", "int", "",1
+			Property: "UpAxisSign", "int", "",1
+			Property: "FrontAxis", "int", "",2
+			Property: "FrontAxisSign", "int", "",1
+			Property: "CoordAxis", "int", "",0
+			Property: "CoordAxisSign", "int", "",1
+			Property: "OriginalUpAxis", "int", "",1
+			Property: "OriginalUpAxisSign", "int", "",1
+			Property: "UnitScaleFactor", "double", "",100
+			Property: "OriginalUnitScaleFactor", "double", "",1
+			Property: "AmbientColor", "ColorRGB", "",0,0,0
+			Property: "DefaultCamera", "KString", "", "Producer Perspective"
+			Property: "TimeMode", "enum", "",11
+			Property: "TimeProtocol", "enum", "",2
+			Property: "SnapOnFrameMode", "enum", "",0
+			Property: "TimeSpanStart", "KTime", "",0
+			Property: "TimeSpanStop", "KTime", "",46186158000
+			Property: "CustomFrameRate", "double", "",-1
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	Connect: "OO", "Model::corridor", "Model::Scene"
+	Connect: "OP", "Texture::file1", "Material::StingrayPBS1", "Maya|TEX_global_diffuse_cube"
+	Connect: "OP", "Texture::file2", "Material::StingrayPBS1", "Maya|TEX_global_specular_cube"
+	Connect: "OP", "Texture::file3", "Material::StingrayPBS1", "Maya|TEX_brdf_lut"
+	Connect: "OP", "Texture::file5", "Material::StingrayPBS1", "Maya|TEX_normal_map"
+	Connect: "OP", "Texture::file4", "Material::StingrayPBS1", "Maya|TEX_color_map"
+	Connect: "OP", "Texture::file6", "Material::StingrayPBS1", "Maya|TEX_metallic_map"
+	Connect: "OP", "Texture::file7", "Material::StingrayPBS1", "Maya|TEX_roughness_map"
+	Connect: "OO", "Material::StingrayPBS1", "Implementation::StingrayPBS1_Implementation"
+	Connect: "OO", "BindingTable::root 26", "Implementation::StingrayPBS1_Implementation"
+	Connect: "OO", "Video::file6", "Texture::file6"
+	Connect: "OO", "Video::file2", "Texture::file2"
+	Connect: "OO", "Video::file1", "Texture::file1"
+	Connect: "OO", "Video::file7", "Texture::file7"
+	Connect: "OO", "Video::file3", "Texture::file3"
+	Connect: "OO", "Video::file4", "Texture::file4"
+	Connect: "OO", "Video::file5", "Texture::file5"
+	Connect: "OO", "Material::StingrayPBS1", "Model::corridor"
+}
+;Takes and animation section
+;----------------------------------------------------
+
+Takes:  {
+	Current: "Take 001"
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 0,46186158000
+		ReferenceTime: 0,46186158000
+		
+		;Models animation
+		;----------------------------------------------------
+		
+		;Generic nodes animation
+		;----------------------------------------------------
+		
+		;Textures animation
+		;----------------------------------------------------
+		
+		;Materials animation
+		;----------------------------------------------------
+		
+		
+		;Constraints animation
+		;----------------------------------------------------
+	}
+}
+;Version 5 settings
+;------------------------------------------------------------------
+
+Version5:  {
+	AmbientRenderSettings:  {
+		Version: 101
+		AmbientLightColor: 0,0,0,1
+	}
+	FogOptions:  {
+		FlogEnable: 0
+		FogMode: 0
+		FogDensity: 0.002
+		FogStart: 0.3
+		FogEnd: 1000
+		FogColor: 1,1,1,1
+	}
+	Settings:  {
+		FrameRate: "24"
+		TimeFormat: 1
+		SnapOnFrames: 0
+		ReferenceTimeIndex: -1
+		TimeLineStartTime: 0
+		TimeLineStopTime: 141120000
+	}
+	RendererSetting:  {
+		DefaultCamera: "Producer Perspective"
+		DefaultViewingMode: 0
+	}
+}

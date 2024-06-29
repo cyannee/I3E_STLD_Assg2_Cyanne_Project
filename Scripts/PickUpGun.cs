@@ -8,12 +8,14 @@ public class PickUpGun : MonoBehaviour
     public GameObject GunOnPlayer;
     public TextMeshProUGUI PickUpText;
     private bool playerInRange;
+    public GameObject CrosshairUI;
 
     // Start is called before the first frame update
     private void Start()
     {
         GunOnPlayer.SetActive(false); 
         PickUpText.gameObject.SetActive(false);
+        CrosshairUI.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -53,15 +55,15 @@ public class PickUpGun : MonoBehaviour
     }
 
     /// <summary>
-    /// Collects the diamond by deactivating its GameObject.
+    /// Picks up gun.
     /// </summary>
     private void PickUp()
     {
         // Deactivate the diamond GameObject
         gameObject.SetActive(false);
-        gameObject.SetActive(false);
-        GunOnPlayer.SetActive(true );
+        GunOnPlayer.SetActive(true);
         PickUpText.gameObject .SetActive(false);
         playerInRange = false;
+        CrosshairUI.SetActive(true);
     }
 }
